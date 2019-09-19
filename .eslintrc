@@ -1,17 +1,8 @@
-{
-    "parserOptions": {
-        "ecmaVersion": 8,
-        "sourceType": "script"
-    },
-    "ecmaFeatures": {
-        "impliedStrict": true
-    },
-    "extends": ["eslint-config-airbnb-base", "plugin:prettier/recommended"],
-    "env": {
-        "node": true,
-        "es6": true
-    },
-    "rules": {
-        "no-console": "off"
-    }
-}
+module.exports = {
+  root: true,
+  extends: ['react-app', 'airbnb', 'plugin:prettier/recommended'],
+  rules: {
+    'react/jsx-props-no-spreading': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off'
+  },
+};
