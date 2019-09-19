@@ -1,0 +1,33 @@
+{
+    "name": "@flammae/replace",
+    "version": "0.0.1",
+    "private": false,
+    "description": "",
+    "keywords": [],
+    "author": "L.S <fitz-i@foxmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "npx eslint ** --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/flammae/replace.git"
+    },
+    "bugs": {
+        "url": "https://github.com/flammae/replace/issues"
+    },
+    "homepage": "https://github.com/flammae/replace#readme",
+    "engines": {
+        "node": ">10.0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2"
+    }
+}

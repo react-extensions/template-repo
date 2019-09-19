@@ -1,0 +1,17 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "script"
+    },
+    "ecmaFeatures": {
+        "impliedStrict": true
+    },
+    "extends": ["eslint-config-airbnb-base", "plugin:prettier/recommended"],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "no-console": "off"
+    }
+}
